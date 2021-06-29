@@ -29,6 +29,34 @@ h3 {
 .siya {
     
 }
+
+/*---*/
+.btn-sec {
+    color: #7c2d2d;
+    background-color: #5d0808;
+    border-color: #5d0808; }
+    .btn-sec:hover {
+      color: #7c2d2d;
+      background-color: #7c2d2d;
+      border-color: #7c2d2d; }
+    .btn-sec:focus, .btn-sec.focus {
+      color: #7c2d2d;
+      background-color: #7c2d2d;
+      border-color: #7c2d2d;
+      box-shadow: 0 0 0 0.2rem rgba(156, 28, 28, 0.5); }
+    .btn-sec.disabled, .btn-sec:disabled {
+      color: #7c2d2d;
+      background-color: #7c2d2d;
+      border-color: #7c2d2d; }
+    .btn-sec:not(:disabled):not(.disabled):active, .btn-sec:not(:disabled):not(.disabled).active,
+    .show > .btn-sec.dropdown-toggle {
+      color: #7c2d2d;
+      background-color: #7c2d2d;
+      border-color: #7c2d2d; }
+      .btn-sec:not(:disabled):not(.disabled):active:focus, .btn-sec:not(:disabled):not(.disabled).active:focus,
+      .show > .btn-sec.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(177, 27, 27, 0.5); }
+  
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
@@ -1392,6 +1420,8 @@ border-radius: 4px; }
 .comment-form textarea:focus {
     border-color: #232d37;
 }
+
+
 
 .comment-form input[type="submit"] {
     padding: 18px 30px;
