@@ -111,7 +111,7 @@
         <label class="tabtle" for="tab2">Extra Toppings</label>
 
         <input id="tab3" type="radio" name="tabs">
-        <label class="tabtle" for="tab3">By Day</label>
+        <label class="tabtle" for="tab3">Beverage</label>
 
         <section id="content1" class="tab-content text-left">
             <!-- <h3 class="title-small text-center">Coffee - <span>We make the delicious coffee</span></h3> -->
@@ -139,11 +139,11 @@
                     <div class="menu-item">
                         <div>
                             <div class="row border-dot no-gutters">
-                                <div class="col-8 menu-item-name">
-                                    <h6>OMELETTE</h6>
+                                <div class="col-8 menu-item-name"><a href="#" class="btn-custom" data-toggle="modal" data-target="#OMELETTE">
+                                  <h6>OMELETTE</h6>
                                 </div>
                                 <div class="col-4 menu-item-price text-right">
-                                    <h6>R60</h6>
+                                    <h6>R60</h6></a>
                                 </div>
                             </div>
                             <div class="menu-item-description">
@@ -156,11 +156,11 @@
                     <div class="menu-item">
                         <div>
                             <div class="row border-dot no-gutters">
-                                <div class="col-8 menu-item-name">
-                                    <h6>EGGS BENEDICT</h6>
+                                <div class="col-8 menu-item-name"><a href="#" class="btn-custom" data-toggle="modal" data-target="#EGGSBENEDICT">
+                                  <h6>EGGS BENEDICT</h6>
                                 </div>
                                 <div class="col-4 menu-item-price text-right">
-                                    <h6>R75</h6>
+                                    <h6>R75</h6></a>
                                 </div>
                             </div>
                             <div class="menu-item-description">
@@ -173,11 +173,11 @@
                     <div class="menu-item">
                         <div>
                             <div class="row border-dot no-gutters">
-                                <div class="col-8 menu-item-name">
-                                    <h6>WAFFLE</h6>
+                                <div class="col-8 menu-item-name"><a href="#" class="btn-custom" data-toggle="modal" data-target="#WAFFLE">
+                                  <h6>WAFFLE</h6>
                                 </div>
                                 <div class="col-4 menu-item-price text-right">
-                                    <h6>R45</h6>
+                                    <h6>R45</h6></a>
                                 </div>
                             </div>
                             <div class="menu-item-description">
@@ -353,12 +353,12 @@
     <p>© 2021 JWC. All rights reserved | Design by <a href="www.thumaina.online"> SiyaPercy</a> </p>
   </div>
   <!-- //copyright -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+<div class="modal fade" id="EGGSBENEDICT" tabindex="-1" role="dialog" aria-labelledby="EGGSBENEDICT" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content"> <div class="single-blog-area wow fadeInUp" data-wow-delay="300ms">
         <!-- Single blog Thumb -->
         <div class="single-blog-thumb">
-            <img src="img/bg-img/20.jpg" alt="">
+            <img src="img/bg-img/egg benedict.jpg" alt="">
         </div>
         <!---
           <div class="modal-header">
@@ -368,7 +368,7 @@
           </div> --->
           <div class="modal-body p-4 p-md-5">
             
-                <form action="POST" data-netlify="true">
+                <form name="EGGSBENEDICT" action="POST" data-netlify="true">
                  
                     <p>"Our meals range from the homely African cuisines to the italian dishes"</p>
                    
@@ -434,12 +434,12 @@
       </div>
   </div>
 <!---Eggs Modal-->
-  <div class="modal fade" id="FULL ENGLISH BREAKFAST" tabindex="-1" role="dialog" aria-labelledby="FULL ENGLISH BREAKFAST" aria-hidden="true">
+  <div class="modal fade" id="FULLENGLISHBREAKFAST" tabindex="-1" role="dialog" aria-labelledby="FULLENGLISHBREAKFAST" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content"> <div class="single-blog-area wow fadeInUp" data-wow-delay="300ms">
         <!-- Single blog Thumb -->
         <div class="single-blog-thumb">
-            <img src="img/bg-img/20.jpg" alt="">
+            <img src="img/bg-img/22.jpg" alt="">
         </div>
         <!---
           <div class="modal-header">
@@ -449,9 +449,9 @@
           </div> --->
           <div class="modal-body p-4 p-md-5">
             
-                <form action="POST" data-netlify="true">
+                <form form name="FULLENGLISHBREAKFAST" action="POST" data-netlify="true">
                  
-                    <p>"Our meals range from the homely African cuisines to the italian dishes"</p>
+                    <p>"FULLENGLISHBREAKFAST"</p>
                    
                   <div class="row"></div>
                   <div class="">
@@ -514,7 +514,168 @@
           </div>
       </div>
   </div>
-
+<!---Eggs Modal-->
+<div class="modal fade" id="OMELETTE" tabindex="-1" role="dialog" aria-labelledby="OMELETTE" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content"> <div class="single-blog-area wow fadeInUp" data-wow-delay="300ms">
+        <!-- Single blog Thumb -->
+        <div class="single-blog-thumb">
+            <img src="img/bg-img/omlete.jpg" alt="">
+        </div>
+        <!---
+          <div class="modal-header">
+              <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true" class="fa fa-close"></span>
+              </button>
+          </div> --->
+          <div class="modal-body p-4 p-md-5">
+            
+                <form form name="OMELETTE" action="POST" data-netlify="true">
+                 
+                    <p>"FULLENGLISHBREAKFAST"</p>
+                   
+                  <div class="row"></div>
+                  <div class="">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Phone">
+                    </div>
+                  </div>
+                  <div class="">
+                      <div class="form-group">
+                          <div class="form-field">
+                              <div class="select-wrap">
+                                  <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                                  <select name="Payment-type" id="Payment-type" class="form-control">
+                                      <option value="">Payment Method</option>
+                                      <option value="Card Payment">Card Payment</option>
+                                      <option value="COD">Cash on Delivery </option>
+                                    </select>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="d-md-flex">
+                      <div class="form-group">
+                        <div class="form-field">
+                  <div class="select-wrap"><input type="text" class="form-control" placeholder="Last Name">
+                  </div>
+                  
+                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                          <select name="Area" id="Area-price" class="form-control">
+                            <option value="">Area price</option>
+                            <option value="Langa">Langa - R20</option>
+                            <option value="Gugulethu">Gugulethu - R60</option>
+                            <option value="Khayelitsha">Khayelitsha - R80</option>
+                            <option value="Town">Town - R60</option>
+                            <option value="Maitland">Maitland - R60</option>
+                            <option value="Parklands">Parklands - R80</option>
+                          </select>
+                        </div>
+                        </div>
+                        
+                    <div class="form-group ml-md-4">
+                      <input type="text" class="form-control" name="Address" id="Address" placeholder="Address">
+                    </div>
+                  </div>
+                    <div class="section_sub_btn">
+                    <button class="btn btn-primary" type="submit">Place Order</button>
+                    <a href="#" class="btn-custom" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#cancelModalCenter">Cancel my order</a>	
+                  </div>
+                  </div>
+                        
+              </form>
+              
+            </div>
+          </div>
+      </div>
+  </div>
+  <!---Eggs Modal-->
+<div class="modal fade" id="WAFFLE" tabindex="-1" role="dialog" aria-labelledby="WAFFLE" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content"> <div class="single-blog-area wow fadeInUp" data-wow-delay="300ms">
+        <!-- Single blog Thumb -->
+        <div class="single-blog-thumb">
+            <img src="img/bg-img/Waffle with ice cream R40.jpg" alt="">
+        </div>
+        <!---
+          <div class="modal-header">
+              <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true" class="fa fa-close"></span>
+              </button>
+          </div> --->
+          <div class="modal-body p-4 p-md-5">
+            
+                <form form name="WAFFEL" action="POST" data-netlify="true">
+                 
+                    <p>"FULLENGLISHBREAKFAST"</p>
+                   
+                  <div class="row"></div>
+                  <div class="">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Phone">
+                    </div>
+                  </div>
+                  <div class="">
+                      <div class="form-group">
+                          <div class="form-field">
+                              <div class="select-wrap">
+                                  <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                                  <select name="Payment-type" id="Payment-type" class="form-control">
+                                      <option value="">Payment Method</option>
+                                      <option value="Card Payment">Card Payment</option>
+                                      <option value="COD">Cash on Delivery </option>
+                                    </select>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="d-md-flex">
+                      <div class="form-group">
+                        <div class="form-field">
+                  <div class="select-wrap"><input type="text" class="form-control" placeholder="Last Name">
+                  </div>
+                  
+                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                          <select name="Area" id="Area-price" class="form-control">
+                            <option value="">Area price</option>
+                            <option value="Langa">Langa - R20</option>
+                            <option value="Gugulethu">Gugulethu - R60</option>
+                            <option value="Khayelitsha">Khayelitsha - R80</option>
+                            <option value="Town">Town - R60</option>
+                            <option value="Maitland">Maitland - R60</option>
+                            <option value="Parklands">Parklands - R80</option>
+                          </select>
+                        </div>
+                        </div>
+                        
+                    <div class="form-group ml-md-4">
+                      <input type="text" class="form-control" name="Address" id="Address" placeholder="Address">
+                    </div>
+                  </div>
+                    <div class="section_sub_btn">
+                    <button class="btn btn-primary" type="submit">Place Order</button>
+                    <a href="#" class="btn-custom" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#cancelModalCenter">Cancel my order</a>	
+                  </div>
+                  </div>
+                        
+              </form>
+              
+            </div>
+          </div>
+      </div>
+  </div>
 <!---End of Eggs Modal--->
       <!--Cancel modal-->
       <div class="modal fade" id="cancelModalCenter" tabindex="-1" role="dialog" aria-labelledby="cancelModalCenterTitle" aria-hidden="true">
