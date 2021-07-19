@@ -180,3 +180,13 @@
       width: 100%;
       }
       }
+      .banner {
+            position: relative;
+            height: 210px;
+            background-image: url("img/bg-img/jobs.jpg");  
+            background-size: cover;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;
+            }
