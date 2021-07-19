@@ -12,9 +12,14 @@
  
     <!-- Stylesheet -->
     <link rel="stylesheet" href="Job-application.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style2.css">
   </head>
   <body>
-    <div class="testbox">
+      <section class="w3l-bottom-grids-6 py-5">
+  <div class="container py-lg-5 py-md-4 py-2">
+      <div class="grids-area-hny main-cont-wthree-fea row">
+         
       <form name="Job Application" method="POST" data-netlify="true">
         <div class="banner">
           <h1>Job Application Form</h1>
@@ -23,18 +28,18 @@
         <div class="item">
           <p>Name<span class="required">*</span></p>
           <div class="name-item">
-            <input type="text" name="name" placeholder="First" required/>
-            <input type="text" name="name" placeholder="Last" required/>
+            <input type="text" name="First Name" placeholder="First" required/>
+            <input type="text" name="Last Name" placeholder="Last" required/>
           </div>
         </div>
         <div class="contact-item">
           <div class="item">
             <p>Email<span class="required">*</span></p>
-            <input type="text" name="name" required/>
+            <input type="text" name="Email Address" required/>
           </div>
           <div class="item">
             <p>Phone<span class="required">*</span></p>
-            <input type="text" name="name" required/>
+            <input type="text" name="phone" required/>
           </div>
         </div>
         <div class="position-item">
@@ -97,6 +102,9 @@
           <button type="submit" href="/">Apply For The Job</button>
         </div>
       </form>
-    </div>
+    
+      </div>
+          </div>
+      </section>
   </body>
 </html>

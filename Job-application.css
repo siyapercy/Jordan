@@ -33,21 +33,20 @@
       padding: 20px;
       border-radius: 6px;
       background: #fff;
-      box-shadow: 0 0 25px 0 #1c87c9; 
+      box-shadow: 0 0 25px 0 rgb(107, 99, 99); 
       }
      .banner {
       position: relative;
-      height: 210px;
-      background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");  
+      height: 310px;
+      background-image: url("img/bg-img/jobs.jpg");  
       background-size: cover;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
       }
       .banner::after {
       content: "";
-      background-color: rgba(0, 0, 0, 0.6); 
       position: absolute;
       width: 100%;
       height: 100%;
@@ -70,12 +69,12 @@
       background: transparent;
       }
       .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
-      color: #1c87c9;
+      color: #c91c1c;
       }
       .item input:hover, .item select:hover {
       border: 1px solid transparent;
-      box-shadow: 0 0 6px 0 #1c87c9;
-      color: #1c87c9;
+      box-shadow: 0 0 6px 0 #c91c1c;
+      color: #c91c1c;
       }
       .item {
       position: relative;
@@ -153,14 +152,14 @@
       padding: 10px;
       border: none;
       border-radius: 5px; 
-      background: #1c87c9;
+      background: #c91c1c;
       font-size: 16px;
       font-weight: 700;
       color: #fff;
       cursor: pointer;
       }
       button:hover {
-      background: #1e6fa0;
+      background: #a01e1e;
       }
       @media (min-width: 568px) {
       .name-item, .contact-item, .position-item {
