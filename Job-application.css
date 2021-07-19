@@ -1,23 +1,4 @@
 
-      html, body {
-      min-height: 100%;
-      }
-      body, div, form, input, select, p { 
-      padding: 0;
-      margin: 0;
-      outline: none;
-      font-family: Roboto, Arial, sans-serif;
-      font-size: 14px;
-      color: #666;
-      line-height: 22px;
-      }
-      h1 {
-      position: absolute;
-      margin: 0;
-      font-size: 38px;
-      color: #fff;
-      z-index: 2;
-      }
       p.top-info {
       margin: 10px 0;
       }
@@ -30,10 +11,10 @@
       }
       form {
       width: 100%;
-      padding: 20px;
+      padding: 10px;
       border-radius: 6px;
-      background: #fff;
-      box-shadow: 0 0 25px 0 rgb(107, 99, 99); 
+      background: #eef1e0;
+      box-shadow: 0 0 25px 0 rgba(144, 143, 143, 0.609); 
       }
      .banner {
       position: relative;
