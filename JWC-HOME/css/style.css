@@ -8374,7 +8374,7 @@ h1, h2, h3, h4, h5,
   font-weight: 400; }
 
 .text-primary {
-  color: #fc5e28 !important; }
+  color: #cc0d12 !important; }
 
 .top {
   background: rgba(0, 0, 0, 0.05);
@@ -8382,7 +8382,7 @@ h1, h2, h3, h4, h5,
   color: #999999;
   z-index: 3; }
   .top span.fa {
-    color: #fc5e28; }
+    color: #cc0d12; }
   @media (max-width: 767.98px) {
     .top .register-link {
       width: 100%;
@@ -8400,9 +8400,9 @@ h1, h2, h3, h4, h5,
     margin-right: 2px;
     border-radius: 50%; }
     .social-media p a span {
-      color: #fc5e28; }
+      color: #cc0d12; }
     .social-media p a:hover span {
-      color: #fc5e28; }
+      color: #e23339; }
 
 .topper {
   font-size: 15px;
@@ -8429,14 +8429,14 @@ h1, h2, h3, h4, h5,
         font-size: 13px;
         color: #000000; }
         .topper .text .con span:first-child {
-          color: #fc5e28; }
+          color: #cc0d12; }
     .topper .text .hr span {
       color: #000000;
       font-weight: 600;
       font-size: 13px; }
     .topper .text .time span:last-child {
       font-weight: 600;
-      color: #fc5e28; }
+      color: #cc0d12; }
 
 .ftco-navbar-light {
   background: transparent !important;
@@ -8508,21 +8508,21 @@ h1, h2, h3, h4, h5,
     border-radius: 0px; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-        background: #fc5e28;
+        background: #cc0d12;
         border-radius: 5px; } }
     .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
-      background: #fc5e28; }
+      background: #cc0d12; }
   .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active {
     background: transparent;
     background: none;
-    color: #fc5e28; }
+    color: #cc0d12; }
     .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
       transform: scaleX(1); }
   .ftco-navbar-light .navbar-nav > .nav-item.active a {
-    background: #fc5e28;
+    background: #cc0d12;
     color: #fff; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
@@ -8547,7 +8547,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: .1em; }
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
       text-decoration: none;
-      color: #fc5e28;
+      color: #cc0d12;
       outline: none !important; }
 
 .navbar-brand {
@@ -8566,12 +8566,12 @@ h1, h2, h3, h4, h5,
     .navbar-brand span small {
       display: block;
       font-size: 11px;
-      color: #fc5e28;
+      color: #cc0d12;
       font-weight: 700; }
   .navbar-brand .flaticon {
     font-size: 50px;
     color: #fff;
-    background: #fc5e28;
+    background: #cc0d12;
     padding: 4px; }
 
 .owl-carousel {
@@ -8646,7 +8646,7 @@ h1, h2, h3, h4, h5,
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fc5e28;
+    color: #cc0d12;
     display: inline-block;
     margin-bottom: 20px;
     font-weight: 600; }
@@ -8679,9 +8679,9 @@ h1, h2, h3, h4, h5,
       .slider-text .breadcrumbs span a {
         color: rgba(255, 255, 255, 0.8); }
         .slider-text .breadcrumbs span a:hover, .slider-text .breadcrumbs span a:focus {
-          color: #fc5e28; }
+          color: #cc0d12; }
           .slider-text .breadcrumbs span a:hover i, .slider-text .breadcrumbs span a:focus i {
-            color: #fc5e28; }
+            color: #cc0d12; }
   .slider-text .bread {
     font-weight: 700;
     color: #fff;
@@ -8691,7 +8691,7 @@ h1, h2, h3, h4, h5,
   background: #f8f9fa !important; }
 
 .bg-primary {
-  background: #fc5e28; }
+  background: #cc0d12; }
 
 .bg-darken {
   background: #232931; }
@@ -8711,20 +8711,20 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fc5e28;
-    border: 1px solid #fc5e28 !important;
+    background: #cc0d12;
+    border: 1px solid #cc0d12 !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #fc5e28;
-      background: #fc5e28;
-      color: #fc5e28; }
+      border: 1px solid #cc0d12;
+      background: #cc0d12;
+      color: #cc0d12; }
     .btn.btn-primary.btn-outline-primary {
-      border: 2px solid #fc5e28 !important;
+      border: 2px solid #cc0d12 !important;
       background: transparent !important;
-      color: #fc5e28 !important; }
+      color: #cc0d12 !important; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 2px solid transparent !important;
-        background: #fc5e28 !important;
+        background: #cc0d12 !important;
         color: #fff !important; }
   .btn.btn-secondary {
     background: #040e26 !important;
@@ -8751,12 +8751,12 @@ h1, h2, h3, h4, h5,
       background: #fff !important;
       color: #fff; }
     .btn.btn-white.btn-outline-primary {
-      border: 1px solid #fc5e28;
+      border: 1px solid #cc0d12;
       background: transparent;
-      color: #fc5e28; }
+      color: #cc0d12; }
       .btn.btn-white.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #fc5e28;
+        background: #cc0d12;
         color: #fff; }
   .btn.btn-black {
     background: #000000 !important;
@@ -8767,12 +8767,12 @@ h1, h2, h3, h4, h5,
       background: #fff !important;
       color: #000000 !important; }
     .btn.btn-black.btn-outline-primary {
-      border: 1px solid #fc5e28;
+      border: 1px solid #cc0d12;
       background: transparent;
-      color: #fc5e28; }
+      color: #cc0d12; }
       .btn.btn-black.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #fc5e28;
+        background: #cc0d12;
         color: #fff; }
 
 .ftco-intro {
