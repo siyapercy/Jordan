@@ -48,7 +48,7 @@
                             <img src="img/core-img/p1.png" alt="">
                         </div>
                         <h2 class="ticket-price"><span>R</span>150</h2>
-                        <a href="#" class="btn confer-btn w-100 mb-30">Get Dividends Card <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        <a href="#"  onClick="first_plan()" class="btn confer-btn w-100 mb-30">Get Dividends Card <i class="zmdi zmdi-long-arrow-right"></i></a>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> (optional) You can <a href="share.html" target="_blank">share with friend(5 max)</a></p>
@@ -69,7 +69,7 @@
                             <img src="img/core-img/p2.png" alt="">
                         </div>
                         <h2 class="ticket-price"><span>R</span>1500</h2>
-                        <a href="#" class="btn confer-btn w-100 mb-30">Get Dividends Card <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        <a href="#"  onClick="second_plan()" class="btn confer-btn w-100 mb-30">Get Dividends Card <i class="zmdi zmdi-long-arrow-right"></i></a>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> (optional) You can <a href="share.html" target="_blank">share with friend(10 max)</a></p>
@@ -90,7 +90,7 @@
                             <img src="img/core-img/p3.png" alt="">
                         </div>
                         <h2 class="ticket-price"><span>R</span>3500</h2>
-                        <a href="#" class="btn confer-btn w-100 mb-30">Get Dividends Card <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        <a href="#"  onClick="third_plan()" class="btn confer-btn w-100 mb-30">Get Dividends Card <i class="zmdi zmdi-long-arrow-right"></i></a>
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">  
                             <p><i class="zmdi zmdi-check"></i> (optional) You can <a href="share.html" target="_blank">share with friend(15 max)</a></p>
@@ -129,6 +129,95 @@
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
 
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+    <!-- payment-->
+    <script>
+        function first_plan() {
+          FlutterwaveCheckout({
+            public_key: "FLWPUBK_TEST-SANDBOXDEMOKEY-X",
+            tx_ref: "RX1",
+            amount: 150,
+            currency: "ZAR",
+            country: "SA",
+            payment_options: " ",
+            redirect_url: // specified redirect URL
+              "https://callbacks.piedpiper.com/flutterwave.aspx?ismobile=34",
+            customer: {
+              email: "cornelius@gmail.com",
+              phone_number: "08102909304",
+              name: "Flutterwave Developers",
+            },
+            callback: function (data) {
+              console.log(data);
+            },
+            onclose: function() {
+              // close modal
+            },
+            customizations: {
+              title: "Jordan ways of cooking",
+              description: "Payment for items in cart",
+              logo: "https://assets.piedpiper.com/logo.png",
+            },
+          });
+        }
+
+        function second_plan() {
+          FlutterwaveCheckout({
+            public_key: "FLWPUBK_TEST-SANDBOXDEMOKEY-X",
+            tx_ref: "RX1",
+            amount: 1500,
+            currency: "ZAR",
+            country: "SA",
+            payment_options: " ",
+            redirect_url: // specified redirect URL
+              "https://callbacks.piedpiper.com/flutterwave.aspx?ismobile=34",
+            customer: {
+              email: "cornelius@gmail.com",
+              phone_number: "08102909304",
+              name: "Flutterwave Developers",
+            },
+            callback: function (data) {
+              console.log(data);
+            },
+            onclose: function() {
+              // close modal
+            },
+            customizations: {
+              title: "Jordan ways of cooking",
+              description: "Payment for items in cart",
+              logo: "https://assets.piedpiper.com/logo.png",
+            },
+          });
+        }
+
+        function third_plan() {
+          FlutterwaveCheckout({
+            public_key: "FLWPUBK_TEST-SANDBOXDEMOKEY-X",
+            tx_ref: "RX1",
+            amount: 3500,
+            currency: "ZAR",
+            country: "SA",
+            payment_options: " ",
+            redirect_url: // specified redirect URL
+              "https://callbacks.piedpiper.com/flutterwave.aspx?ismobile=34",
+            meta: {
+              consumer_id: 23,
+              consumer_mac: "92a3-912ba-1192a",
+            },
+            callback: function (data) {
+              console.log(data);
+            },
+            onclose: function() {
+              // close modal
+            },
+            customizations: {
+              title: "Jordan ways of cooking",
+              description: "Payment for items in cart",
+              logo: "https://assets.piedpiper.com/logo.png",
+            },
+          });
+        }
+      </script>
 </body>
 
 </html>
