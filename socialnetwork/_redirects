@@ -1,3 +1,4 @@
 /POST /success
 /404 /error
 /job-application /error
+/index.html /index.php
