@@ -23,8 +23,22 @@ if(isset($_GET['id']) && $_GET['id'] != $_SESSION['user_id']) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Social Network</title>
-    <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+     <title>THUMAINA</title>
+     <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title></title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="create.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <style>
     .post{
         margin-right: 50px;

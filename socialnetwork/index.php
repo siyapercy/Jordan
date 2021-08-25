@@ -46,7 +46,7 @@ ob_start();
                     <input type="password" name="userpass" placeholder="userpass" id="loginuserpass">
                     <div class="required"></div>
                     <br><br>
-                    <input type="submit" value="Login" name="login">
+                    <button type="submit" value="Login" name="login"></button>
                 </form>
             </div>
             <div class="tabcontent" id="signup">

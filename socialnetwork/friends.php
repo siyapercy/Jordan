@@ -12,17 +12,20 @@ $conn = connect();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Social Network</title>
-    <link rel="stylesheet" type="text/css" href="resources/css/main.css">
-    <style>
-    .frame a{
-        text-decoration: none;
-        color: #4267b2;
-    }
-    .frame a:hover{
-        text-decoration: underline;
-    }
-    </style>
+<title>THUMAINA</title>
+     <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title></title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
     <div class="container">

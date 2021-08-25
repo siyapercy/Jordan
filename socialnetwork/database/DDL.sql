@@ -1,5 +1,5 @@
-DROP DATABASE socialnetwork;
-CREATE DATABASE socialnetwork;
+DROP DATABASE jordanw4_socialnetwork;
+CREATE DATABASE jordanw4_socialnetwork;
 
 CREATE TABLE users (
 user_id             INT NOT NULL AUTO_INCREMENT,
